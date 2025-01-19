@@ -46,7 +46,7 @@ function Footer({ onNavigate }: FooterProps) {
           {/* Social Links */}
           <div className="flex gap-6">
             <a
-              href="https://www.linkedin.com/in/khaled-bakir-153a81292/"
+              href="https://www.linkedin.com/in/khaled-bakir/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#D8C4B6] hover:text-[#F5EFE7]  transition-colors"

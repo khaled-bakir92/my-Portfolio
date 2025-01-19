@@ -37,7 +37,7 @@ function Hero() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-6">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/khaled-bakir/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#D8C4B6] hover:text-[#F5EFE7] transition-colors"
@@ -45,7 +45,7 @@ function Hero() {
             <Linkedin className="w-6 h-6" />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/khaled-bakir92"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#D8C4B6] hover:text-[#F5EFE7] transition-colors"
@@ -53,7 +53,7 @@ function Hero() {
             <Github className="w-6 h-6" />
           </a>
           <a
-            href="mailto:contact@example.com"
+            href="mailto:khaled.bakir92@gmail.com"
             className="text-[#D8C4B6] hover:text-[#F5EFE7] transition-colors"
           >
             <Mail className="w-6 h-6" />
@@ -122,7 +122,7 @@ function Hero() {
                 Contact
               </a>
               <div className="flex gap-6 mt-4">
-                <a href="https://www.linkedin.com/in/khaled-bakir-153a81292/" target="_blank" rel="noopener noreferrer" className="text-[#D8C4B6] hover:text-blue-400 transition-colors"><Linkedin className="w-6 h-6" /></a>
+                <a href="https://www.linkedin.com/in/khaled-bakir/" target="_blank" rel="noopener noreferrer" className="text-[#D8C4B6] hover:text-blue-400 transition-colors"><Linkedin className="w-6 h-6" /></a>
                 <a href="https://github.com/khaled-bakir92" target="_blank" rel="noopener noreferrer" className="text-[#D8C4B6] hover:text-blue-400 transition-colors"><Github className="w-6 h-6" /></a>
                 <a href="mailto:khaled.bakir92@gmail.com" className="text-[#D8C4B6] hover:text-blue-400 transition-colors"><Mail className="w-6 h-6" /></a>
               </div>
