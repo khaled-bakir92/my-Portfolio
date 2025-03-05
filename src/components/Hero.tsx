@@ -29,10 +29,14 @@ function Hero() {
   return (
     <section className="min-h-[90vh] bg-[#213555] text-white">
       <nav className="fixed top-0 left-0 right-0 z-40 bg-[#213555] md:relative">
-        <div className="section-container py-6 flex justify-between items-center">
-        <a href="/" className="font-['Pacifico'] text-[#D8C4B6] text-xl sm:text-2xl hover:text-[#F5EFE7] transition-colors">
-          Khaled
-        </a>
+        <div className="section-container py-2 flex justify-between items-center">
+        <a href="/">
+              <img 
+                src="/images/meinlogo.svg" 
+                alt="Khaled Logo" 
+                className="h-20 sm:h-32 w-auto" 
+              />
+            </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-6">
@@ -81,9 +85,13 @@ function Hero() {
         >
           <div className="p-6">
             <div className="flex justify-between items-center mb-8">
-              <a href="/" className="font-['Pacifico'] text-xl sm:text-2xl text-[#D8C4B6] hover:text-blue-400 transition-colors">
-                Khaled
-              </a>
+            <a href="/">
+              <img 
+                src="/images/meinlogo.svg" 
+                alt="Khaled Logo" 
+                className="h-10 sm:h-10 w-auto" 
+              />
+            </a>
             </div>
             <div className="flex flex-col gap-6 items-center">
               <a
