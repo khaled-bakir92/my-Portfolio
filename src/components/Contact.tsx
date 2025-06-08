@@ -92,6 +92,7 @@ function Contact() {
                       value={formData.from_name}
                       onChange={handleChange}
                       required
+                      autoComplete="name"
                       placeholder="Max Mustermann"
                       className="block w-full pl-10 pr-3 py-3 border border-[#D8C4B6] rounded-lg bg-transparent
                         focus:outline-none focus:ring-2 focus:ring-[#415370] focus:border-transparent
@@ -115,6 +116,7 @@ function Contact() {
                       value={formData.from_email}
                       onChange={handleChange}
                       required
+                      autoComplete="email"
                       placeholder="max-mustermann@gmail.com"
                       className="block w-full pl-10 pr-3 py-3 border border-[#D8C4B6] rounded-lg bg-transparent
                         focus:outline-none focus:ring-2 focus:ring-[#415370] focus:border-transparent

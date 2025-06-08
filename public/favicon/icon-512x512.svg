@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with website color -->
+  <rect width="512" height="512" rx="64" fill="#213555"/>
+  
+  <!-- Simple K/ logo -->
+  <g transform="translate(64, 64)">
+    <!-- K vertical line -->
+    <rect x="0" y="0" width="42.666666666666664" height="384" fill="#F6A10B"/>
+    
+    <!-- K upper diagonal -->
+    <polygon points="0,128 128,0 170.66666666666666,42.666666666666664 42.666666666666664,170.66666666666666" fill="#F6A10B"/>
+    
+    <!-- K lower diagonal -->
+    <polygon points="0,256 42.666666666666664,213.33333333333334 170.66666666666666,341.3333333333333 128,384" fill="#F6A10B"/>
+    
+    <!-- Slash -->
+    <rect x="170.66666666666666" y="0" width="21.333333333333332" height="384" fill="#F6A10B" transform="rotate(20 170.66666666666666 64)"/>
+    
+    <!-- Accent lines -->
+    <rect x="170.66666666666666" y="320" width="128" height="10.666666666666666" fill="#F6A10B"/>
+    <rect x="170.66666666666666" y="362.6666666666667" width="102.4" height="10.666666666666666" fill="#F6A10B"/>
+    <rect x="170.66666666666666" y="384" width="85.33333333333333" height="10.666666666666666" fill="#F6A10B"/>
+  </g>
+</svg>
