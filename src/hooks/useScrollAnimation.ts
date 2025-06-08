@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 type AnimationOptions = {
   threshold?: number;
@@ -16,7 +16,6 @@ export function useScrollAnimation({
   onlyOnLoad = false 
 }: AnimationOptions) {
   const elementRef = useRef<HTMLElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     if (onlyOnLoad) {
@@ -32,7 +31,6 @@ export function useScrollAnimation({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
           setTimeout(() => {
             entry.target.classList.add('animate-in');
             entry.target.classList.add(animation);
@@ -56,7 +54,7 @@ export function useScrollAnimation({
         observer.unobserve(element);
       }
     };
-  }, [animation, delay, threshold, rootMargin]);
+  }, [animation, delay, threshold, rootMargin, onlyOnLoad]);
 
   return elementRef;
 }

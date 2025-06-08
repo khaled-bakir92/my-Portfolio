@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Building2, Code2 } from 'lucide-react';
 
 const experiences = [
   {
@@ -96,6 +95,7 @@ const experiences = [
 
 function WorkExperience() {
   const [activeTechStack, setActiveTechStack] = React.useState(experiences[0].techStack);
+  const [currentActiveExpId, setCurrentActiveExpId] = React.useState(experiences[0].id);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -121,7 +121,11 @@ function WorkExperience() {
         }
       });
 
-      setActiveTechStack(lastVisibleExp.techStack);
+      // Only update activeTechStack if the active experience has actually changed
+      if (lastVisibleExp.id !== currentActiveExpId) {
+        setCurrentActiveExpId(lastVisibleExp.id);
+        setActiveTechStack(lastVisibleExp.techStack);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -129,7 +133,7 @@ function WorkExperience() {
     handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [currentActiveExpId]); // Add currentActiveExpId as dependency
 
   return (
     <section id="experience" className="section-container pt-14">
@@ -139,7 +143,7 @@ function WorkExperience() {
 
       <div className="py-7 md:py-14 flex gap-20">
         <div className="lg:w-1/2">
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <div
               key={exp.id}
               id={exp.id}

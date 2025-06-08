@@ -30,8 +30,8 @@ function Impressum() {
             <div className="space-y-2 text-[#D8C4B6]">
               <p>Khaled</p>
               <p>Webentwicklung & Design</p>
-              <p>Musterstraße 123</p>
-              <p>12345 Musterstadt</p>
+              <p>Finken str 51 </p>
+              <p>33609 Bielefeld</p>
             </div>
           </section>
 
@@ -44,15 +44,15 @@ function Impressum() {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-[#D8C4B6]">
                 <Phone className="w-5 h-5" />
-                <p>Telefon: +49 (0) 123 456789</p>
+                <p>Telefon: +49 (0) 17666338979</p>
               </div>
               <div className="flex items-center gap-3 text-[#D8C4B6]">
                 <Mail className="w-5 h-5" />
-                <p>E-Mail: contact@example.com</p>
+                <p>E-Mail: khaled.bakir92@gmail.com</p>
               </div>
               <div className="flex items-center gap-3 text-[#D8C4B6]">
                 <MapPin className="w-5 h-5" />
-                <p>Bürozeiten: Mo-Fr 9:00 - 17:00 Uhr</p>
+                <p>Erreichbar: Mo-Fr 9:00 - 17:00 Uhr</p>
               </div>
             </div>
           </section>
@@ -64,9 +64,9 @@ function Impressum() {
             </div>
             <h2 className="text-2xl font-bold text-[#F5EFE7]">Rechtliche Angaben</h2>
             <div className="space-y-2 text-[#D8C4B6]">
-              <p>Umsatzsteuer-ID: DE123456789</p>
-              <p>Handelsregister: HRB 12345</p>
-              <p>Registergericht: Amtsgericht Musterstadt</p>
+              <p>Umsatzsteuer-ID: DE---------</p>
+              <p>Handelsregister: HRB -----</p>
+              <p>Registergericht: Amtsgericht Bielefeld</p>
             </div>
           </section>
 
@@ -78,9 +78,9 @@ function Impressum() {
             <h2 className="text-2xl font-bold text-[#F5EFE7]">Inhaltlich Verantwortlicher</h2>
             <div className="space-y-2 text-[#D8C4B6]">
               <p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</p>
-              <p>Khaled</p>
-              <p>Musterstraße 123</p>
-              <p>12345 Musterstadt</p>
+              <p>Khaled Bakir</p>
+              <p>Finken str 51</p>
+              <p>33609 Bielefeld</p>
             </div>
           </section>
 

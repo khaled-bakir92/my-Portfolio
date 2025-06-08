@@ -13,9 +13,13 @@ function Footer({ onNavigate }: FooterProps) {
       <div className="section-container">
         <div className="flex flex-col items-center space-y-8">
           {/* Logo */}
-          <a href="/" className="font-['Pacifico'] text-[#D8C4B6] text-2xl sm:text-3xl hover:text-[#F5EFE7]  transition-colors">
-            Khaled
-          </a>
+          <a href="/">
+              <img 
+                src="/images/meinlogo.svg" 
+                alt="Khaled Logo" 
+                className="h-20 sm:h-32 w-auto" 
+              />
+            </a>
 
           {/* Navigation */}
           <nav className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm sm:text-base text-gray-300">

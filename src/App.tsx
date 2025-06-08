@@ -14,7 +14,7 @@ import { routes } from './routes';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
-  const isValidRoute = Object.values(routes).includes(currentPath as any);
+  const isValidRoute = Object.values(routes).includes(currentPath);
   
   const getPageTitle = () => {
     switch (currentPath) {
